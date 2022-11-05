@@ -5,7 +5,7 @@ public class outname {
 //		Scanner in = new Scanner(System.in);
 //		String name  = in.next();
 //		System.out.println("name:"+name);
-//		
+//
 //		Scanner in=new Scanner(System.in);
 //		double a=in .nextDouble();
 //		double b=in .nextDouble();
@@ -78,7 +78,7 @@ public class outname {
 //        double x,y,a;
 //        char s[]=new char[] {'王','科','炎'}	;
 //        int index=0;
-//        for(y=1.3f;y>-1.1f;y-=0.06f){  
+//        for(y=1.3f;y>-1.1f;y-=0.06f){
 //        	index=0;
 //            for(x=-1.2f;x<=1.2f;x+=0.025f){
 //            	double result=x*x+pow((5.0*y/4.0-sqrt(Math abs((s))),2);
@@ -93,9 +93,13 @@ public class outname {
 //            System.out.println(" ");
 //        }
 //		double a = 987;
-		double b = (double)987/100;
-		double c = 987%100;
-		System.out.println(b);
-		System.out.println(c);
+//		double b = (double)987/100;
+//		double c = 987%100;
+//		System.out.println(b);
+//		System.out.println(c);
+//				System.out.println("面积之和"+area);
+		System.out.println("厚德\t勤业\n常州职业技术学院");
+		System.out.println("hello world");
+		System.out.println("输入你的数字");
 	}
 }
