@@ -1,0 +1,43 @@
+Index: src/test/java/outname.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/outname.java b/src/test/java/outname.java
+--- a/src/test/java/outname.java	
++++ b/src/test/java/outname.java	(date 1667892904983)
+@@ -109,16 +109,26 @@
+ //			}else{
+ //				System.out.println("当数字等于"+a+"那么我也不会爱你的");
+ //			}
++//		Scanner input = new Scanner(System.in);
++//		String name = input.nextLine();
++//		double tem = input.nextDouble();
++//		String loca = input.next();
++//		if (tem > 37 && loca .equals("常州")) {
++//			System.out.println("高风险");
++//		} else if (tem >37 || loca .equals("常州")) {
++//			System.out.println("中风险");
++//		}else {
++//			System.out.println("低风险");
++//		}
+ 		Scanner input = new Scanner(System.in);
+-		String name = input.nextLine();
+-		double tem = input.nextDouble();
+-		String loca = input.next();
+-		if (tem > 37 && loca .equals("常州")) {
+-			System.out.println("高风险");
+-		} else if (tem >37 || loca .equals("常州")) {
+-			System.out.println("中风险");
++		double a = input.nextDouble();
++		double b = input.nextDouble();
++		double c = input.nextDouble();
++		double s = (a+b+c)/2;
++		if (a+b>c && a+c>b && b+c>a) {
++			System.out.println("够成三角形，它的面积为"+ Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+ 		}else {
+-			System.out.println("低风险");
++			System.out.println("不组成三角形");
+ 		}
+ 	}
+ }
