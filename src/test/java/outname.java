@@ -120,15 +120,25 @@ public class outname {
 //		}else {
 //			System.out.println("低风险");
 //		}
+//		Scanner input = new Scanner(System.in);
+//		double a = input.nextDouble();
+//		double b = input.nextDouble();
+//		double c = input.nextDouble();
+//		double s = (a+b+c)/2;
+//		if (a+b>c && a+c>b && b+c>a) {
+//			System.out.println("够成三角形，它的面积为"+ Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+//		}else {
+//			System.out.println("不组成三角形");
+//		}
+		//
 		Scanner input = new Scanner(System.in);
-		double a = input.nextDouble();
-		double b = input.nextDouble();
-		double c = input.nextDouble();
-		double s = (a+b+c)/2;
-		if (a+b>c && a+c>b && b+c>a) {
-			System.out.println("够成三角形，它的面积为"+ Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+		int year = input.nextInt();
+		if (year > 0 && year <= 2) {
+			System.out.println("相当于人类" + 10.5 * year);
+		} else if (year > 2) {
+			System.out.println("相当于人类" + 21 + 4 * year);
 		}else {
-			System.out.println("不组成三角形");
+			System.out.println("请输出正常年龄");
 		}
 	}
 }
