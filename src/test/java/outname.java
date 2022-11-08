@@ -1,5 +1,7 @@
 package test.java;
 
+import java.util.*;
+
 public class outname {
 	public static void main(String[] args) {
 //		Scanner in = new Scanner(System.in);
@@ -42,12 +44,14 @@ public class outname {
 //		String result = (num%2==0) ? "偶数" : "奇数";
 //		System.out.println(num+"是"+result);
 //		Scanner num = new Scanner(System.in);
-//		double a=num .nextDouble();
-//		if(a==520) {
+//		double a = num.nextDouble();
+//		if (a == 520) {
 //			System.out.println("那我只能说6");
-//		}else {
-//				System.out.println("那确实");
-//			}
+//		} else {
+//			System.out.println("那确实");
+//		}
+//	}
+//}
 //		Scanner num = new Scanner(System.in);
 //		double a=num .nextDouble();
 //		double b=num .nextDouble();
@@ -98,8 +102,33 @@ public class outname {
 //		System.out.println(b);
 //		System.out.println(c);
 //				System.out.println("面积之和"+area);
-		System.out.println("厚德\t勤业\n常州职业技术学院");
-		System.out.println("hello world");
-		System.out.println("输入你的数字");
+//		for (int a = 511; a < 521; a++) {//这里已经加过1了
+//			if (a==520){
+//				System.out.println("当数字等于520时代表着我也爱你");
+//				break;
+//			}else{
+//				System.out.println("当数字等于"+a+"那么我也不会爱你的");
+//			}
+//		Scanner input = new Scanner(System.in);
+//		String name = input.nextLine();
+//		double tem = input.nextDouble();
+//		String loca = input.next();
+//		if (tem > 37 && loca .equals("常州")) {
+//			System.out.println("高风险");
+//		} else if (tem >37 || loca .equals("常州")) {
+//			System.out.println("中风险");
+//		}else {
+//			System.out.println("低风险");
+//		}
+		Scanner input = new Scanner(System.in);
+		double a = input.nextDouble();
+		double b = input.nextDouble();
+		double c = input.nextDouble();
+		double s = (a+b+c)/2;
+		if (a+b>c && a+c>b && b+c>a) {
+			System.out.println("够成三角形，它的面积为"+ Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+		}else {
+			System.out.println("不组成三角形");
+		}
 	}
 }
